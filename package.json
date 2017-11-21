@@ -1,0 +1,10 @@
+{
+  "name": "grids",
+  "version": "1.0.0",
+  "description": "A project to learn/display css3 grid trials, learning, and designs",
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "R. Todd Fleeman"
+}
