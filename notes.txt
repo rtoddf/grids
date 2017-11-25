@@ -1,5 +1,8 @@
 npm install --save-dev gulp
 npm install --save-dev gulp-util
+npm install --save0dev gulp-concat
+npm install --save-dev gulp-browserify
+npm imstall --save-dev jquery
 
 
 
