@@ -4,7 +4,11 @@ npm install --save0dev gulp-concat
 npm install --save-dev gulp-browserify
 npm imstall --save-dev jquery
 
+npm imstall --save-dev gulp-compass
+look up options - npm page on gulp-compass
 
+go here for sass style
+http://sass-lang.com/documentation/file.SASS_REFERENCE.html
 
 
 gulp log - task name
