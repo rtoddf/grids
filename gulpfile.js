@@ -17,6 +17,14 @@ var sassSources = [
 	'components/sass/style.scss'
 ]
 
+var htmlSources = [
+	'builds/development/*.html'
+]
+
+var jsonSources = [
+	'builds/development/data/*.json'
+]
+
 gulp.task('js', function(){
 	gulp.src(jsSources)
 		.pipe(concat('script.js'))
@@ -37,12 +45,24 @@ gulp.task('compass', function(){
 		.pipe(connect.reload())
 })
 
-gulp.task('watch', function(){
-	gulp.watch(jsSources, ['js']);
-	gulp.watch('components/sass/*.scss', ['compass']);
+gulp.task('html', function(){
+	gulp.src(htmlSources)
+	.pipe(connect.reload())
 })
 
-gulp.task('default', ['js', 'compass', 'connect', 'watch']);
+gulp.task('json', function(){
+	gulp.src(jsonSources)
+	.pipe(connect.reload())
+})
+
+gulp.task('watch', function(){
+	gulp.watch(htmlSources, ['html']);
+	gulp.watch(jsSources, ['js']);
+	gulp.watch('components/sass/*.scss', ['compass']);
+	gulp.watch(jsonSources, ['json']);
+})
+
+gulp.task('default', ['html', 'js', 'compass', 'json', 'connect', 'watch']);
 
 
 gulp.task('connect', function(){
