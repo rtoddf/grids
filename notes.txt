@@ -11,4 +11,8 @@ go here for sass style
 http://sass-lang.com/documentation/file.SASS_REFERENCE.html
 
 
+npm imstall --save-dev gulp-watch
+npm imstall --save-dev gulp-connect
+
+
 gulp log - task name
