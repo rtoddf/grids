@@ -1,3 +1,5 @@
+
+
 .grid[data-margin="0"] {
     grid-gap: 0;
 
@@ -63,4 +65,29 @@
 		    font-weight: normal;
 		}
 	}
+}
+
+/* checkerboard layouts */
+.grid[data-col="2x2"] {
+    grid-template-columns: unquote("repeat(2, [col] 1fr)");
+    grid-template-rows: unquote("repeat(2, [row] 1fr)");
+    // grid-auto-flow: column;
+}
+
+.grid[data-col="3x3"] {
+    grid-template-columns: unquote("repeat(3, [col] 1fr)");
+    grid-template-rows: unquote("repeat(3, [row] 1fr)");
+    // grid-auto-flow: column;
+}
+
+.grid[data-col="4x2"] {
+    grid-template-columns: unquote("repeat(4, [col] 1fr)");
+    grid-template-rows: unquote("[row] 1fr");
+    // grid-auto-flow: column;
+}
+
+.grid[data-col="5x2"] {
+    grid-template-columns: unquote("repeat(5, [col] 1fr)");
+    grid-template-rows: unquote("repeat(2, [row] 1fr)");
+    // grid-auto-flow: column;
 }
