@@ -6,8 +6,8 @@
 // core partials
 @import "variables";
 // @import "mixins";
-// @import "base-old";
-@import "base";
 // @import "modules";
+// @import "vs-base";
 
-@import "vs-base";
+@import "base";
+@import "displays";
