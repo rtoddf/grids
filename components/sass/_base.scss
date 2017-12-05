@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h2 i.fa {
@@ -45,9 +45,9 @@ p {
 	margin-bottom: 20px;
 }
 
-p:last-child {
-	margin-bottom: 0;
-}
+// p:last-child {
+// 	margin-bottom: 0;
+// }
 
 a {
     color: #222;
@@ -89,6 +89,20 @@ ul {
 			}
 		}
     }
+}
+
+[data-theme="vs"] {
+    background: #f7f7f7;
+}
+
+[data-theme="light"] {
+    background: #efefef;
+    color: #444;
+}
+
+[data-theme="dark"] {
+    background: #666;
+    color: #fff;
 }
 
 .container {
@@ -262,12 +276,19 @@ ul {
 }
 
 .caption {
-    margin: 5px auto 0;
+    margin: 0.3125rem auto 0;
     color: #888;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 1rem;
 }
-// /* end image-holder stuff */
+/* end image-holder stuff */
+
+/* nested grids */
+.grid > .grid-item > .grid {
+    grid-row-gap: 0;
+    width: 100%;
+}
 
 
 
