@@ -10,8 +10,9 @@
     color: #444;
 }
 
-.panel .image-holder {
-    margin: 0 -20px 10px;
+.panel h3 {
+	margin-bottom: 20px;
+	font-size: 1.17em;
 }
 
 .panel img {
@@ -42,6 +43,22 @@
 .panel ul li:last-child:after {
     margin-bottom: 0;
     background-color: transparent;
+}
+
+.panel ul li a {
+    padding: 0;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.panel ul li a:hover {
+    background: transparent;
+    color: #1955a5;
+}
+
+.panel .image-holder {
+    margin: 0 -20px 10px;
 }
 
 .panel .caption {
