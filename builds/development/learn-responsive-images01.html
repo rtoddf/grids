@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>CSS3 Grids</title>
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- http://afarkas.github.io/lazysizes/#examples
+		https://github.com/dinbror/blazy -->
+		<div class="container">
+			<div class="grid" data-col="4">
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/matt-doyle.jpg" 
+								alt="Matt Doyle" 
+								srcset="images/responsive/matt-doyle-xl.jpg 1600w, images/responsive/matt-doyle-lg.jpg 1200w, images/responsive/matt-doyle-md.jpg 800w, images/responsive/matt-doyle-sm.jpg 600w, images/responsive/matt-doyle-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/eli-lieb.jpg" 
+								alt="Eli Lieb" 
+								srcset="images/responsive/eli-lieb-xl.jpg 1600w, images/responsive/eli-lieb-lg.jpg 1200w, images/responsive/eli-lieb-md.jpg 800w, images/responsive/eli-lieb-sm.jpg 600w, images/responsive/eli-lieb-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/joseph-gordon-levitt.jpg" 
+								alt="Joseph Gordon Levitt" 
+								srcset="images/responsive/joseph-gordon-levitt-xl.jpg 1600w, images/responsive/joseph-gordon-levitt-lg.jpg 1200w, images/responsive/joseph-gordon-levitt-md.jpg 800w, images/responsive/joseph-gordon-levitt-sm.jpg 600w, images/responsive/joseph-gordon-levitt-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/travis-wall.jpg" 
+								alt="Travis Wall" 
+								srcset="images/responsive/travis-wall-xl.jpg 1600w, images/responsive/travis-wall-lg.jpg 1200w, images/responsive/travis-wall-md.jpg 800w, images/responsive/travis-wall-sm.jpg 600w, images/responsive/travis-wall-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="grid" data-col="4">
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/matt-doyle.jpg" 
+								alt="Matt Doyle" 
+								srcset="images/responsive/matt-doyle-xl.jpg 1600w, images/responsive/matt-doyle-lg.jpg 1200w, images/responsive/matt-doyle-md.jpg 800w, images/responsive/matt-doyle-sm.jpg 600w, images/responsive/matt-doyle-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/eli-lieb.jpg" 
+								alt="Eli Lieb" 
+								srcset="images/responsive/eli-lieb-xl.jpg 1600w, images/responsive/eli-lieb-lg.jpg 1200w, images/responsive/eli-lieb-md.jpg 800w, images/responsive/eli-lieb-sm.jpg 600w, images/responsive/eli-lieb-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/joseph-gordon-levitt.jpg" 
+								alt="Joseph Gordon Levitt" 
+								srcset="images/responsive/joseph-gordon-levitt-xl.jpg 1600w, images/responsive/joseph-gordon-levitt-lg.jpg 1200w, images/responsive/joseph-gordon-levitt-md.jpg 800w, images/responsive/joseph-gordon-levitt-sm.jpg 600w, images/responsive/joseph-gordon-levitt-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/travis-wall.jpg" 
+								alt="Travis Wall" 
+								srcset="images/responsive/travis-wall-xl.jpg 1600w, images/responsive/travis-wall-lg.jpg 1200w, images/responsive/travis-wall-md.jpg 800w, images/responsive/travis-wall-sm.jpg 600w, images/responsive/travis-wall-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="grid" data-col="4">
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/matt-doyle.jpg" 
+								alt="Matt Doyle" 
+								srcset="images/responsive/matt-doyle-xl.jpg 1600w, images/responsive/matt-doyle-lg.jpg 1200w, images/responsive/matt-doyle-md.jpg 800w, images/responsive/matt-doyle-sm.jpg 600w, images/responsive/matt-doyle-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/eli-lieb.jpg" 
+								alt="Eli Lieb" 
+								srcset="images/responsive/eli-lieb-xl.jpg 1600w, images/responsive/eli-lieb-lg.jpg 1200w, images/responsive/eli-lieb-md.jpg 800w, images/responsive/eli-lieb-sm.jpg 600w, images/responsive/eli-lieb-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/joseph-gordon-levitt.jpg" 
+								alt="Joseph Gordon Levitt" 
+								srcset="images/responsive/joseph-gordon-levitt-xl.jpg 1600w, images/responsive/joseph-gordon-levitt-lg.jpg 1200w, images/responsive/joseph-gordon-levitt-md.jpg 800w, images/responsive/joseph-gordon-levitt-sm.jpg 600w, images/responsive/joseph-gordon-levitt-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/travis-wall.jpg" 
+								alt="Travis Wall" 
+								srcset="images/responsive/travis-wall-xl.jpg 1600w, images/responsive/travis-wall-lg.jpg 1200w, images/responsive/travis-wall-md.jpg 800w, images/responsive/travis-wall-sm.jpg 600w, images/responsive/travis-wall-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="grid" data-col="4">
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/matt-doyle.jpg" 
+								alt="Matt Doyle" 
+								srcset="images/responsive/matt-doyle-xl.jpg 1600w, images/responsive/matt-doyle-lg.jpg 1200w, images/responsive/matt-doyle-md.jpg 800w, images/responsive/matt-doyle-sm.jpg 600w, images/responsive/matt-doyle-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/eli-lieb.jpg" 
+								alt="Eli Lieb" 
+								srcset="images/responsive/eli-lieb-xl.jpg 1600w, images/responsive/eli-lieb-lg.jpg 1200w, images/responsive/eli-lieb-md.jpg 800w, images/responsive/eli-lieb-sm.jpg 600w, images/responsive/eli-lieb-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/joseph-gordon-levitt.jpg" 
+								alt="Joseph Gordon Levitt" 
+								srcset="images/responsive/joseph-gordon-levitt-xl.jpg 1600w, images/responsive/joseph-gordon-levitt-lg.jpg 1200w, images/responsive/joseph-gordon-levitt-md.jpg 800w, images/responsive/joseph-gordon-levitt-sm.jpg 600w, images/responsive/joseph-gordon-levitt-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/travis-wall.jpg" 
+								alt="Travis Wall" 
+								srcset="images/responsive/travis-wall-xl.jpg 1600w, images/responsive/travis-wall-lg.jpg 1200w, images/responsive/travis-wall-md.jpg 800w, images/responsive/travis-wall-sm.jpg 600w, images/responsive/travis-wall-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="grid" data-col="4">
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/matt-doyle.jpg" 
+								alt="Matt Doyle" 
+								srcset="images/responsive/matt-doyle-xl.jpg 1600w, images/responsive/matt-doyle-lg.jpg 1200w, images/responsive/matt-doyle-md.jpg 800w, images/responsive/matt-doyle-sm.jpg 600w, images/responsive/matt-doyle-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/eli-lieb.jpg" 
+								alt="Eli Lieb" 
+								srcset="images/responsive/eli-lieb-xl.jpg 1600w, images/responsive/eli-lieb-lg.jpg 1200w, images/responsive/eli-lieb-md.jpg 800w, images/responsive/eli-lieb-sm.jpg 600w, images/responsive/eli-lieb-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/joseph-gordon-levitt.jpg" 
+								alt="Joseph Gordon Levitt" 
+								srcset="images/responsive/joseph-gordon-levitt-xl.jpg 1600w, images/responsive/joseph-gordon-levitt-lg.jpg 1200w, images/responsive/joseph-gordon-levitt-md.jpg 800w, images/responsive/joseph-gordon-levitt-sm.jpg 600w, images/responsive/joseph-gordon-levitt-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/travis-wall.jpg" 
+								alt="Travis Wall" 
+								srcset="images/responsive/travis-wall-xl.jpg 1600w, images/responsive/travis-wall-lg.jpg 1200w, images/responsive/travis-wall-md.jpg 800w, images/responsive/travis-wall-sm.jpg 600w, images/responsive/travis-wall-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="grid" data-col="4">
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/matt-doyle.jpg" 
+								alt="Matt Doyle" 
+								srcset="images/responsive/matt-doyle-xl.jpg 1600w, images/responsive/matt-doyle-lg.jpg 1200w, images/responsive/matt-doyle-md.jpg 800w, images/responsive/matt-doyle-sm.jpg 600w, images/responsive/matt-doyle-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/eli-lieb.jpg" 
+								alt="Eli Lieb" 
+								srcset="images/responsive/eli-lieb-xl.jpg 1600w, images/responsive/eli-lieb-lg.jpg 1200w, images/responsive/eli-lieb-md.jpg 800w, images/responsive/eli-lieb-sm.jpg 600w, images/responsive/eli-lieb-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/joseph-gordon-levitt.jpg" 
+								alt="Joseph Gordon Levitt" 
+								srcset="images/responsive/joseph-gordon-levitt-xl.jpg 1600w, images/responsive/joseph-gordon-levitt-lg.jpg 1200w, images/responsive/joseph-gordon-levitt-md.jpg 800w, images/responsive/joseph-gordon-levitt-sm.jpg 600w, images/responsive/joseph-gordon-levitt-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/travis-wall.jpg" 
+								alt="Travis Wall" 
+								srcset="images/responsive/travis-wall-xl.jpg 1600w, images/responsive/travis-wall-lg.jpg 1200w, images/responsive/travis-wall-md.jpg 800w, images/responsive/travis-wall-sm.jpg 600w, images/responsive/travis-wall-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="grid" data-col="4">
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/matt-doyle.jpg" 
+								alt="Matt Doyle" 
+								srcset="images/responsive/matt-doyle-xl.jpg 1600w, images/responsive/matt-doyle-lg.jpg 1200w, images/responsive/matt-doyle-md.jpg 800w, images/responsive/matt-doyle-sm.jpg 600w, images/responsive/matt-doyle-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/eli-lieb.jpg" 
+								alt="Eli Lieb" 
+								srcset="images/responsive/eli-lieb-xl.jpg 1600w, images/responsive/eli-lieb-lg.jpg 1200w, images/responsive/eli-lieb-md.jpg 800w, images/responsive/eli-lieb-sm.jpg 600w, images/responsive/eli-lieb-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/joseph-gordon-levitt.jpg" 
+								alt="Joseph Gordon Levitt" 
+								srcset="images/responsive/joseph-gordon-levitt-xl.jpg 1600w, images/responsive/joseph-gordon-levitt-lg.jpg 1200w, images/responsive/joseph-gordon-levitt-md.jpg 800w, images/responsive/joseph-gordon-levitt-sm.jpg 600w, images/responsive/joseph-gordon-levitt-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/travis-wall.jpg" 
+								alt="Travis Wall" 
+								srcset="images/responsive/travis-wall-xl.jpg 1600w, images/responsive/travis-wall-lg.jpg 1200w, images/responsive/travis-wall-md.jpg 800w, images/responsive/travis-wall-sm.jpg 600w, images/responsive/travis-wall-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="grid" data-col="4">
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/matt-doyle.jpg" 
+								alt="Matt Doyle" 
+								srcset="images/responsive/matt-doyle-xl.jpg 1600w, images/responsive/matt-doyle-lg.jpg 1200w, images/responsive/matt-doyle-md.jpg 800w, images/responsive/matt-doyle-sm.jpg 600w, images/responsive/matt-doyle-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/eli-lieb.jpg" 
+								alt="Eli Lieb" 
+								srcset="images/responsive/eli-lieb-xl.jpg 1600w, images/responsive/eli-lieb-lg.jpg 1200w, images/responsive/eli-lieb-md.jpg 800w, images/responsive/eli-lieb-sm.jpg 600w, images/responsive/eli-lieb-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/joseph-gordon-levitt.jpg" 
+								alt="Joseph Gordon Levitt" 
+								srcset="images/responsive/joseph-gordon-levitt-xl.jpg 1600w, images/responsive/joseph-gordon-levitt-lg.jpg 1200w, images/responsive/joseph-gordon-levitt-md.jpg 800w, images/responsive/joseph-gordon-levitt-sm.jpg 600w, images/responsive/joseph-gordon-levitt-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="image-holder">
+						<span class="filler">
+							<img 
+								src="images/responsive/gideon-glick.jpg" 
+								alt="Gideon Glick" 
+								srcset="images/responsive/gideon-glick-xl.jpg 1600w, images/responsive/gideon-glick-lg.jpg 1200w, images/responsive/gideon-glick-md.jpg 800w, images/responsive/gideon-glick-sm.jpg 600w, images/responsive/gideon-glick-xs.jpg 400w">
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/script.js"></script>
+</html>
