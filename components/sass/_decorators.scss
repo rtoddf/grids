@@ -1,0 +1,22 @@
+section > h3 {
+	margin: 20px 20px 0;
+}
+
+.single-rule, .scotch-rule {
+	margin: 0 20px;
+    border-left: none;
+    border-right: none;
+}
+
+.scotch-rule {
+    box-sizing: content-box;
+    content: '';
+    display: block;
+    border-top: 2px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    height: 1px;
+    // margin: 0 20px;
+    background-color: #fff;
+    // margin-top: 12px;
+    // margin-bottom: 12px;
+}

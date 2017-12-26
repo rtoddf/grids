@@ -11,36 +11,72 @@
 		<link href="css/style.css" rel="stylesheet" />
 	</head>
 
-	<body>
+	<body data-theme="index">
 		<div class="container">
 			<div class="grid">
-				<div class="flex-item">
+				<article>
 					<h2>CSS3 Grids <i class="fa fa-css3" aria-hidden="true"></i></h2>
 					<p>CSS Grid Layout excels at dividing a page into major regions, or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.</p>
 
 					<p>Like tables, grid layout enables an author to align elements into columns and rows. However, many more layouts are either possible or easier with CSS grid than they were with tables. For example, a grid container's child elements could position themselves so they actually overlap and layer, similar to CSS positioned elements.</p>
 					<div class="source"> - MDN web docs</div>
-				</div>
+				</article>
 			</div>
+
+			<div class="grid" data-col="3">
+				<article>
+					<h3>Display classes</h3>
+					<ul>
+						<li><a href="displays-01.html">Checkerboard - Simple</a></li>
+						<li><a href="displays-01a.html">Checkerboard - Complex</a></li>
+						<li><a href="displays-03.html">Panel w/text</a></li>
+						<li><a href="displays-03b.html">Panel w/list</a></li>
+						<li><a href="displays-03c.html">Unequal Variations - Panel w/list</a></li>
+						<li><a href="displays-04.html">Main Feature w/ Slide Up</a></li>
+						<li><a href="displays-05.html">Vertical Scroller</a></li>
+						<!-- <li><a href="displays-rectangle00a.html">Rectangle - Simple</a></li> -->
+					</ul>
+				</article>
+				<article>
+					<h3>Layouts</h3>
+					<ul>
+						<li><a href="layouts-01.html">Even Combos (ones)</a></li>
+						<li><a href="layouts-01b.html">Even Combos (twos)</a></li>
+						<li><a href="layouts-01c.html">Even Combos (threes)</a></li>
+						<li><a href="layouts-01d.html">Even Combos (fours)</a></li>
+						<li><a href="layouts-01e.html">Even Combos (fives)</a></li>
+						<li><a href="layouts-01f.html">Even Combos (Sixes)</a></li>
+						<li><a href="layouts-02b.html">Uneven Combos (twos)</a></li>
+						<li><a href="layouts-02c.html">Uneven Combos (threes)</a></li>
+						<li><a href="layouts-02d.html">Uneven Combos (fours)</a></li>
+						<li><a href="layouts-02e.html">Uneven Combos (fives)</a></li>
+					</ul>
+					<ul>					
+						<li><a href="layouts-03.html">Equal, simple combinations - square images</a></li>
+						<li><a href="layouts-03a.html">Equal Square Images - no margin</a></li>
+						<li><a href="layouts-03b.html">Equal Square Images - multi-row</a></li>
+						<li><a href="layouts-03c.html">Unequal Square Images</a></li>
+					</ul>
+				</article>
+				<article></article>
+			</div>
+
+
 			<div class="grid" data-col="3">
 	            <div class="flex-item">
 					<h3>responsive</h3>
 					<p>Combination of grid and flexbox for responsiveness</p>
 					<ul>
-						<li><a href="responsive02.html">Responsive 02</a></li>
-						<li><a href="responsive03.html">Responsive 03</a></li>
 						<li><a href="responsive04.html">Responsive 04</a></li>
-						<li><a href="responsive05.html">Responsive 05</a></li>
-						<li><a href="responsive06.html">Responsive 06</a></li>
 					</ul>
 
 					<h3>responsive images</h3>
 					<ul>
-						<li><a href="learn-responsive-images01.html">01</a></li>
-						<li><a href="learn-responsive-images01b.html">01b</a></li>
+						<li><a href="learn-responsive-images01.html">Responsive Images 01</a></li>
+						<li><a href="learn-responsive-images01b.html">Responsive Images 01b</a></li>
 
-						<li><a href="learn-responsive-images02.html">02</a></li>
-						<li><a href="learn-responsive-images02b.html">02b</a></li>
+						<li><a href="learn-responsive-images02.html">Responsive Imags and Lazy Load 01</a></li>
+						<li><a href="learn-responsive-images02b.html">Responsive Imags and Lazy Load 01b</a></li>
 					</ul>
 
 					<h3>Display classes</h3>
@@ -48,7 +84,16 @@
 						<li><a href="displays-checkerboard00a.html">Checkerboard - Simple</a></li>
 						<li><a href="displays-checkerboard00b.html">Checkerboard - Complex</a></li>
 
-						<li><a href="displays-rectangle00a.html">Rectangle - Simple</a></li>
+						<!-- <li><a href="displays-rectangle00a.html">Rectangle - Simple</a></li> -->
+
+						<li><a href="displays-gallery01a.html">Gallery Trial 01 - no jquery</a></li>
+						<li><a href="displays-gallery00a.html">Gallery Trial 00 - no jquery</a></li>
+
+						<li><a href="displays-gallery01b.html">Gallery Trial 01</a></li>
+						<li><a href="displays-gallery00b.html">Gallery Trial 00</a></li>
+
+						<li><a href="vs-10.html">Main Feature w/ Slide Up</a></li>
+						<li><a href="vs-11.html">Combo Layout w/ Vertical Scroller</a></li>
 					</ul>
 				</div>
 				<div class="flex-item">
@@ -84,9 +129,10 @@
 						<li><a href="vs-05.html">Unequal Square Images</a></li>
 					</ul>
 					<ul>
-						<li><a href="vs-wpcolumnlayout03.html">Washington Post column layout w/text</a></li>
-						<li><a href="vs-wpcolumnlayout01.html">Washington Post column layout w/ul</a></li>
-						<li><a href="vs-wpcolumnlayout02.html">Washington Post column layout - variations</a></li>
+						<li><a href="vs-08.html">Column layout w/text</a></li>
+						<li><a href="vs-06.html">Column layout w/ul</a></li>
+						<li><a href="vs-07.html">Column layout - variations</a></li>
+						<li><a href="vs-09.html">Column layout - combo</a></li>
 					</ul>
 				</div>
 			</div>
