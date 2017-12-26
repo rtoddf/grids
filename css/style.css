@@ -595,7 +595,6 @@ a,
 .panel ul li a {
   padding: 0;
   color: #333;
-  font-weight: 600;
   text-decoration: none;
 }
 
@@ -899,4 +898,24 @@ a:hover,
 /* testing something */
 [data-weight="full"] {
   grid-column: span 4;
+}
+
+section > h3 {
+  margin: 20px 20px 0;
+}
+
+.single-rule, .scotch-rule {
+  margin: 0 20px;
+  border-left: none;
+  border-right: none;
+}
+
+.scotch-rule {
+  box-sizing: content-box;
+  content: '';
+  display: block;
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  height: 1px;
+  background-color: #fff;
 }
