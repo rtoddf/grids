@@ -67,6 +67,17 @@ h2, h3 {
     text-transform: uppercase;
 }
 
+a {
+    padding: 0;
+    color: #333;
+    text-decoration: none;
+
+    &:hover {
+        background: transparent;
+        color: #1955a5;
+    }
+}
+
 p {
     margin-bottom: 1.25rem;
 }
