@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i);
 /*
 rem sizes:
 40px = 2.5rem
@@ -918,4 +919,104 @@ section > h3 {
   border-bottom: 1px solid #e2e2e2;
   height: 1px;
   background-color: #fff;
+}
+
+/* https://www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/ */
+/* Styles the close link, adds the slide down transition */
+.lightbox-close {
+  display: block;
+  width: 75px;
+  height: 50px;
+  box-sizing: border-box;
+  background: transparent;
+  color: black;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  -webkit-transition: .35s ease-in-out;
+  -moz-transition: .35s ease-in-out;
+  -o-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
+  cursor: pointer;
+}
+
+.lightbox-close:before,
+.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 35px;
+  width: 5px;
+  background: #fff;
+  position: absolute;
+  left: 23px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.lightbox-close:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+.lightbox {
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity .35s ease-in-out;
+  -moz-transition: opacity .35s ease-in-out;
+  -o-transition: opacity .35s ease-in-out;
+  transition: opacity .35s ease-in-out;
+  overflow: hidden;
+}
+
+/* 	Styles the lightbox image, adds the zoom-in transition and makes
+	it responsive using a combination of margin and absolute positioning */
+.lightbox figure img {
+  height: auto;
+  margin: auto;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.lightbox figure .filler {
+  background: transparent;
+}
+
+.lightbox.open {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+/* can this go somewhere else?? */
+.tile.square img {
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 102%;
+  height: 102%;
+  max-width: 102%;
+  max-height: 102%;
+  text-align: center;
+  cursor: pointer;
+  transform: translate(-50%, -25%);
+  transition: all .6s ease;
+}
+
+.lightbox .grid,
+.lightbox article,
+.lightbox figure,
+.lightbox .filler {
+  height: 100%;
 }

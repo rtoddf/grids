@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>CSS3 Grids</title>
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body data-theme="lightbox">
+		<div class="container">
+
+			<div class="grid">
+				<article class="ad">
+					This is an ad
+				</article>
+			</div>
+			
+			<div class="grid" data-col="1-2-1">
+				<article class="panel">
+					<h2>Movies</h2>
+					<ul>
+						<li>
+							<div class="content">
+								<h3>Morbi sit amet tristique nunc.</h3>
+								<span>Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis.</span>
+							</div>
+						</li>
+						<li data-contenttype="image">
+							<span class="filler">
+								<img src="images/movies-back-to-the-future.jpg" />
+							</span>
+							<div class="content">
+								<h3>Back to the Future was released on July 3, 1985</h3>
+								<span>Back to the Future is a 1985 American science-fiction adventure comedy film directed by Robert Zemeckis and written by Zemeckis and Bob Gale.</span>
+							</div>
+						</li>
+						<li>
+							<div class="content">
+								<h3>Cras semper lobortis commodo.</h3>
+							</div>
+						</li>
+						<li>
+							<div class="content">
+								<h3>Donec elit lectus</h3>
+								<span>Donec elit lectus, placerat pulvinar lacus nec, eleifend congue metus.</span>
+							</div>
+						</li>
+						<li>
+							<div class="content">
+								<h3>Lorem ipsum dolor sit amet</h3>
+								<span>Consectetur adipiscing elit. Duis ac leo nec mi viverra euismod.</span>
+							</div>
+						</li>
+						<li data-contenttype="image">
+							<span class="filler">
+								<img src="images/movies-bladerunner01.jpg" />
+							</span>
+							<div class="content">
+								<h3>Do Androids Dream of Electric Sheep?</h3>
+								<span>Blade Runner is a 1982 American neo-noir science fiction film directed by Ridley Scott and starring Harrison Ford, Rutger Hauer, Sean Young, and Edward James Olmos.</span>
+							</div>
+						</li>
+					</ul>
+				</article>
+				<article class="panel">
+					<h3>Westworld is an American science fiction western thriller</h3>
+					<figure>
+						<span class="filler">
+							<img src="images/tv-westworld01.jpg" />
+						</span>
+						<figcaption>The story takes place in the fictional Westworld, a technologically advanced Wild West-themed amusement park populated by android hosts. (photo credit)</figcaption>
+					</figure>
+					<p>Westworld is an American science fiction western thriller television series created by Jonathan Nolan and Lisa Joy for HBO. It is based on the 1973 film of the same name, which was written and directed by American novelist Michael Crichton, and to a lesser extent on the 1976 sequel Futureworld. It is the second TV series based on the two films, the first being the short-lived 1980 series Beyond Westworld.</p>
+					<p>The series' debut on HBO garnered the network's highest viewership ratings for a premiere since the first episode of True Detective in 2014 and Westworld ranks as the most-watched first season of an HBO original series ever. Westworld has received positive reviews by critics, with particular praise for the visuals, story, and acting.</p>
+					<figure>
+						<span class="filler">
+							<img src="images/tv-westworld02.jpg">
+						</span>
+						<figcaption>The story takes place in the fictional Westworld, a technologically advanced Wild West-themed amusement park populated by android hosts. (photo credit)</figcaption>
+					</figure>
+					<p>The story takes place in the fictional Westworld, a technologically advanced Wild West-themed amusement park populated by android hosts. Westworld caters to high-paying guests, who may indulge in whatever they wish within the park, without fear of retaliation from the hosts.</p>
+					<p>The series' debut on HBO garnered the network's highest viewership ratings for a premiere since the first episode of True Detective in 2014 and Westworld ranks as the most-watched first season of an HBO original series ever.[6] Westworld has received largely positive reviews from critics, with particular praise for the visuals, story, and performances.</p>
+
+					<div class="social-container">
+						<div><a href="javascript:void(0)">Facebook</a></div>
+						<div><a href="javascript:void(0)">Twitter</a></div>
+						<div><a href="javascript:void(0)">Instagram</a></div>
+						<div><a href="javascript:void(0)">Google</a></div>
+					</div>
+				</article>
+				<article class="panel">
+					<h3>Why do we even need weapons anyway? We have her</h3>
+					<figure>
+						<span class="filler">
+							<img src="images/tv-stranger-things01.jpg">
+						</span>
+						<figcaption>Deals with attempts of the characters to return to normal. (photo credit)</figcaption>
+					</figure>
+					<p>Set in the fictional town of Hawkins, Indiana in the 1980s, the first season focuses on the investigation into the disappearance of a young boy amid supernatural events occurring around the town including the appearance of a psychokinetic girl who helps the missing boy's friends in their own search.</p>
+					<figure>
+						<span class="filler">
+							<img src="images/tv-stranger-things02.jpg">
+						</span>
+						<figcaption>Deals with attempts of the characters to return to normal. (photo credit)</figcaption>
+					</figure>
+				</article>
+			</div>
+			<div class="grid" data-col="1-2-1">
+				<article class="panel">
+					<h3>A bug is never just a mistake</h3>
+					<figure>
+						<span class="filler">
+							<img src="images/tv-mr-robot01.jpg">
+						</span>
+						<figcaption>Rami Said Malek is an Egyptian-American actor. (photo credit)</figcaption>
+					</figure>
+					<p>Mr. Robot is an American drama–thriller television series created by Sam Esmail. It stars Rami Malek as Elliot Alderson, a cybersecurity engineer and hacker who suffers from social anxiety disorder and clinical depression. Alderson is recruited by an insurrectionary anarchist known as "Mr. Robot", played by Christian Slater, to join a group of hacktivists called "fsociety".</p>
+					<figure>
+						<span class="filler">
+							<img src="images/tv-mr-robot02.jpg">
+						</span>
+						<figcaption>Christian Michael Leonard Slater is an American actor and producer. (photo credit)</figcaption>
+					</figure>
+					<div class="social-container">
+						<div><a href="javascript:void(0)">Facebook</a></div>
+						<div><a href="javascript:void(0)">Twitter</a></div>
+						<div><a href="javascript:void(0)">Instagram</a></div>
+						<div><a href="javascript:void(0)">Google</a></div>
+					</div>
+				</article>
+				<article class="panel">
+					<h3>American Gods</h3>
+					<figure>
+						<span class="filler">
+							<img src="images/tv-american-gods01.jpg">
+						</span>
+						<figcaption>Richard "Ricky" Whittle (born 31 December 1981) is an English actor. He first came to prominence as a model for Reebok in the early 2000s. (photo credit)</figcaption>
+					</figure>
+					<p>American Gods is an American television series based on the novel of the same name, written by Neil Gaiman and originally published in 2001. The television series was developed by Bryan Fuller and Michael Green for the premium cable network Starz. Fuller and Green are the showrunners for the series. Gaiman serves as an executive producer along with Fuller, Green, Craig Cegielski, Stefanie Berk, David Slade, and Adam Kane.</p>
+					<p>The series focuses on Shadow Moon, who meets a strange man named Mr. Wednesday after being released from prison, and soon becomes embroiled in a large-scale conflict between the Old Gods and the New Gods, who grow stronger each day. The first season originally ran on the Starz network and streaming service from April to June 2017. In May 2017, the series was renewed for a second season.</p>
+					<div class="social-container">
+						<div><a href="javascript:void(0)">Facebook</a></div>
+						<div><a href="javascript:void(0)">Twitter</a></div>
+						<div><a href="javascript:void(0)">Instagram</a></div>
+						<div><a href="javascript:void(0)">Google</a></div>
+					</div>
+				</article>
+				<article class="panel">
+					<h3>Seven minutes of heaven with Archie Andrews</h3>
+					<figure>
+						<span class="filler">
+							<img src="images/tv-riverdale.jpg">
+						</span>
+						<figcaption>Riverdale is an American teen drama television series based on the characters by Archie Comics. (photo credit)</figcaption>
+					</figure>
+					<p>Riverdale is an American teen drama television series based on the characters by Archie Comics. The series premiered on January 26, 2017, on The CW. It was adapted for television by Archie Comics' chief creative officer Roberto Aguirre-Sacasa and executive produced by Greg Berlanti. On March 7, 2017, The CW renewed the series for a second season, which is scheduled to debut on October 11, 2017. In September 2017, a spin-off series, titled The Chilling Adventures of Sabrina, was revealed to be in development.</p>
+					<p>The show features an ensemble cast based on the characters of Archie Comics, with KJ Apa in the role of Archie Andrews; Lili Reinhart as Betty Cooper, his next door neighbor who has a crush on him; Camila Mendes as Veronica Lodge, his new love interest; and Cole Sprouse as Jughead Jones, his ex-best friend and the narrator of the show. The show also features Ashleigh Murray as Josie McCoy, the lead singer of the Pussycats, and Madelaine Petsch as Cheryl Blossom, the twin sister of Jason Blossom, who is at the center of the series' mystery. Other characters in the show include Fred Andrews, Alice Cooper and Hermione Lodge, the parents of Archie, Betty, and Veronica respectively.</p>
+					<div class="social-container">
+						<div><a href="javascript:void(0)">Facebook</a></div>
+						<div><a href="javascript:void(0)">Twitter</a></div>
+						<div><a href="javascript:void(0)">Instagram</a></div>
+						<div><a href="javascript:void(0)">Google</a></div>
+					</div>
+				</article>
+			</div>
+
+
+			<div class="grid" data-col="1-2-1">
+				<article class="panel">
+					<h2>Actors</h2>
+					<ul>
+						<li>
+							<div class="content">
+								<h3>Morbi sit amet tristique nunc.</h3>
+								<span>Phasellus eget ipsum laoreet, malesuada ligula id, venenatis nibh. Curabitur auctor nisi massa, eu tincidunt tellus posuere quis.</span>
+							</div>
+						</li>
+						<li data-contenttype="image">
+							<span class="filler">
+								<img src="images/personalities-tommy-dorfman.jpg" />
+							</span>
+							<div class="content">
+								<h3>Donec ut nulla ipsum. Ut feugiat libero neque</h3>
+								<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet libero eu enim tristique condimentum non eget libero. Vel placerat lorem commodo ut.</span>
+							</div>
+						</li>
+						<li data-contenttype="image">
+							<span class="filler">
+								<img src="images/movies-bladerunner01.jpg" />
+							</span>
+							<div class="content">
+								<h3>Curabitur elementum eros ac erat porttitor</h3>
+								<span>Maecenas cursus nulla non justo sodales, pharetra finibus risus feugiat. Aenean eu tempor arcu.</span>
+							</div>
+						</li>
+					</ul>
+				</article>
+
+				<article>
+				 
+					<div class="tease-cap">
+						<h3>Gallery</h3>
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet libero eu enim tristique condimentum non eget libero. Donec ut nulla ipsum. Ut feugiat libero neque, vel placerat lorem commodo ut.</p>
+						</div>
+					</div>
+
+					<div data-layout="grid">
+						<div class="grid" data-col="4" data-margin="0">
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-adam-lambert.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Adam Lambert</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-adele.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Adele</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-bruno-mars.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Bruno Mars</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-charlie-puth.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Charlie Puth</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-ed-sheeran.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Ed Sheeran</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-halsey.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Halsey</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">>
+								<div class="tile">
+									<figure>
+										<img src="images/music-imagine-dragons.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Imagine Dragons</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-lady-gaga.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Lady Gaga</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-meghan-trainor.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>Meghan Trainor</h4>
+									</div>
+								</div>
+							</article>
+
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-the-chainsmokers.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>The Chainsmokers</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-the-script.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>The Script</h4>
+									</div>
+								</div>
+							</article>
+							<article data-image-layout="square">
+								<div class="tile">
+									<figure>
+										<img src="images/music-p!nk.jpg">
+									</figure>
+									<div class="content-holder">
+										<h4>P!nk</h4>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
